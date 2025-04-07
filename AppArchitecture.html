@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .architecture {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .layer {
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+        }
+        .layer-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .components {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .component {
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            width: 120px;
+            text-align: center;
+            background-color: #eaf2f8;
+        }
+        .arrows {
+            text-align: center;
+            font-size: 24px;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="architecture">
+        <h2 style="text-align: center;">Архітектура застосунку "Доставка їжі"</h2>
+
+        <div class="layer">
+            <div class="layer-title">UI Layer (User Interface)</div>
+            <div class="components">
+                <div class="component">Консольний інтерфейс</div>
+            </div>
+            <div class="note">Відображення даних та отримання команд користувача</div>
+        </div>
+
+        <div class="arrows">↓</div>
+
+        <div class="layer">
+            <div class="layer-title">BLL Layer (Business Logic)</div>
+            <div class="components">
+                <div class="component">MenuService</div>
+                <div class="component">OrderService</div>
+                <div class="component">DishService</div>
+            </div>
+            <div class="note">Обробка бізнес-логіки та правил</div>
+        </div>
+
+        <div class="arrows">↓</div>
+
+        <div class="layer">
+            <div class="layer-title">DAL Layer (Data Access)</div>
+            <div class="components">
+                <div class="component">AppDbContext</div>
+                <div class="component">Dish Entity</div>
+                <div class="component">Menu Entity</div>
+                <div class="component">Order Entity</div>
+            </div>
+            <div class="note">Робота з базою даних</div>
+        </div>
+
+        <div class="arrows">↓</div>
+
+        <div class="layer">
+            <div class="layer-title">Database</div>
+            <div class="components">
+                <div class="component">Local Database</div>
+            </div>
+            <div class="note">Зберігання даних</div>
+        </div>
+    </div>
+</body>
+</html>
