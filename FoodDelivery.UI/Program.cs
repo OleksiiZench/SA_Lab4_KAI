@@ -13,11 +13,10 @@ namespace FoodDelivery.UI
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Створення екземпляра AppDbContext
             using (var context = new AppDbContext())
             {
-                // Переконатися, що база даних створена (якщо її ще немає)
-                context.Database.EnsureCreated();
+                
+                context.Database.EnsureCreated(); // Переконатися, що база даних створена
 
                 // Створення екземплярів сервісів BLL, передаючи контекст
                 var menuService = new MenuService(context);
