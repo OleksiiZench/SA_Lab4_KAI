@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\menudish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\dayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\dayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|c:\\kai_labs\\sa_labs\\sa_lab4\\food_delivery.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F80650-86BB-409D-AD2F-8E6DE6D789AB}|Food_Delivery.DAL\\Food_Delivery.DAL.csproj|solutionrelative:food_delivery.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,22 +41,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 369,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Class1.cs",
-              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Class1.cs",
-              "RelativeToolTip": "Food_Delivery.DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:19:13.834Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -42,8 +57,102 @@
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\AppDbContext.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:54:47.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:47:37.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\Order.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Order.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:47:10.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuDish.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\MenuDish.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\MenuDish.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\MenuDish.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\MenuDish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:46:36.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Menu.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\Menu.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Menu.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:43:36.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DayOfWeek.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\DayOfWeek.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\DayOfWeek.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\DayOfWeek.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\DayOfWeek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:42:45.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Dish.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\Dish.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Dish.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\Dish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:36:22.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Food_Delivery.DAL\\Entities\\Category.cs",
+              "ToolTip": "C:\\KAI_Labs\\SA_Labs\\SA_Lab4\\Food_Delivery.DAL\\Entities\\Category.cs",
+              "RelativeToolTip": "Food_Delivery.DAL\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:30:42.991Z"
             }
           ]
         }
