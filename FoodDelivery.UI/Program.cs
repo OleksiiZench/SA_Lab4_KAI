@@ -69,10 +69,9 @@ namespace FoodDelivery.UI
                 }
             }
 
-            Console.ReadKey(); // Затримати консольне вікно до натискання клавіші
+            Console.ReadKey();
         }
 
-        // Методи для обробки кожної дії користувача будуть реалізовані тут
         static void ShowMenuByDay(MenuService menuService)
         {
             Console.WriteLine("Введіть ID дня тижня (1-7):");
