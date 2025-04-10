@@ -1,5 +1,6 @@
 ﻿using FoodDelivery.DAL.Data;
 using FoodDelivery.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace FoodDelivery.BLL.Services
 {
@@ -14,9 +15,12 @@ namespace FoodDelivery.BLL.Services
 
         public List<Dish> GetMenuForDay(int dayOfWeekId)
         {
+            // Використовуємо Include та ThenInclude для явного завантаження зв'язаних об'єктів
             return _context.Menus
                 .Where(m => m.DayOfWeekId == dayOfWeekId)
-                .SelectMany(m => m.Dishes)
+                .Include(m => m.MenuDishes)
+                .ThenInclude(md => md.Dish)
+                .SelectMany(m => m.MenuDishes.Select(md => md.Dish))
                 .ToList();
         }
 
