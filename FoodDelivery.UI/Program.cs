@@ -1,9 +1,6 @@
-﻿// FoodDelivery.UI/Program.cs
-using System;
-using FoodDelivery.BLL.Services;
-using FoodDelivery.DAL.Data;
+﻿using FoodDelivery.DAL.Data;
 using FoodDelivery.DAL.Entities;
-using Microsoft.EntityFrameworkCore; // Потрібно для EnsureCreated
+using FoodDelivery.DAL.Repositories;
 
 namespace FoodDelivery.UI
 {
@@ -16,13 +13,17 @@ namespace FoodDelivery.UI
 
             using (var context = new AppDbContext())
             {
-                
-                context.Database.EnsureCreated(); // Переконатися, що база даних створена
+                context.Database.EnsureCreated();
 
-                // Створення екземплярів сервісів BLL, передаючи контекст
-                var menuService = new MenuService(context);
-                var dishService = new DishService(context);
-                var orderService = new OrderService(context);
+                // Ініціалізуємо репозиторії
+                var dishRepository = new DishRepository(context);
+                var menuRepository = new MenuRepository(context);
+                var orderRepository = new OrderRepository(context);
+
+                // Ініціалізуємо сервіси з використанням репозиторіїв
+                var menuService = new MenuService(menuRepository, dishRepository);
+                var dishService = new DishService(dishRepository);
+                var orderService = new OrderService(orderRepository, dishRepository);
 
                 bool isRunning = true;
                 while (isRunning)
