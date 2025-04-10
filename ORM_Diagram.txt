@@ -1,0 +1,70 @@
+//www.plantuml.com/plantuml/png/ZPB1oXCn4CVlUOfXBuBo7Rm6aG_yBWMrYeBdi1jhS7Shc-oX50yj7iM2I4-Ahr2AMi6spp1v8tTIdQOrPRriC__C_EO_arvRfnhNLgN8IsKjF51EZyRD1AO2u0uC2WccTk7yM5LQWdMDgKT1k37sbROI7Xhhxb5mNxmLVpWK_XT3sxmnRvmProVwayRaNMQXSrEfaYIsnhn8atmAyYDTjoVkI3Xtg2R3bo-qVjrZau4nA-9Gc40mFYdAux77SD-ckHIcJ8fRKYp3bqdnDSKoV8_4OLFe9Z5Iq6-KqnBe-znK-gW_SygrbfV6-i3fwgzp5YBxh5rg-8yW3pzzur3uj5MrCsuI4XB_AxB1__ZiRWPNLv3TpW809E1dNFbFWYAIwPQIkABB-88h_8NVyGV-z7F_7l0RxWM_RSoa9mXCl_GpFp_a2r9ZDfTIwaU_x7WxtFlP8RqhN8GMSHtJoMUwmza4xEKhxd5zoozmWolg0xZXQLFaTu1hm6qtxyv_I9BJ7iA3nSlWLq_aybM43UB5VND9lnFscp8InWkxsD9YGgDTD-fINEkwQAloDm00
+
+@startuml
+class Category {
+  + Id: int
+  + Name: string
+  + Dishes: List<Dish>
+}
+
+class Dish {
+  + Id: int
+  + Name: string
+  + Description: string
+  + Price: decimal
+  + CategoryId: int
+  + Category: Category
+  + MenuDishes: List<MenuDish>
+}
+
+class DayOfWeek {
+  + Id: int
+  + Name: string
+  + Menus: List<Menu>
+}
+
+class Menu {
+  + Id: int
+  + DayOfWeekId: int
+  + DayOfWeek: DayOfWeek
+  + MenuDishes: List<MenuDish>
+  + Dishes: List<Dish>
+}
+
+class MenuDish {
+  + MenuId: int
+  + Menu: Menu
+  + DishId: int
+  + Dish: Dish
+}
+
+class Order {
+  + Id: int
+  + OrderDate: DateTime
+  + OrderStatus: string
+  + OrderItems: List<OrderItem>
+}
+
+class OrderItem {
+  + Id: int
+  + OrderId: int
+  + Order: Order
+  + DishId: int
+  + Dish: Dish
+  + Quantity: int
+  + Price: decimal
+}
+
+Category "1" -- "*" Dish : 
+Dish "*" -- "1" Category :  
+DayOfWeek "1" -- "*" Menu : 
+Menu "*" -- "1" DayOfWeek :  
+Menu "*" -- "*" MenuDish : 
+MenuDish "*" -- "1" Menu : ' 
+Dish "*" -- "*" MenuDish :   
+MenuDish "*" -- "1" Dish : 
+Order "1" -- "*" OrderItem : 
+OrderItem "*" -- "1" Order :  
+OrderItem "*" -- "1" Dish : 
+Dish "*" -- "*" OrderItem :   
+@enduml
