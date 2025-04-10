@@ -1,5 +1,6 @@
 ﻿using FoodDelivery.DAL.Data;
 using FoodDelivery.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace FoodDelivery.BLL.Services
 {
@@ -24,8 +25,15 @@ namespace FoodDelivery.BLL.Services
 
         public List<Dish> SearchDishesByName(string name)
         {
-            return _context.Dishes
-                .Where(d => d.Name.Contains(name, System.StringComparison.OrdinalIgnoreCase))
+            if (string.IsNullOrEmpty(name))
+                return new List<Dish>();
+
+            // Спочатку отримуємо всі страви з бази даних
+            var allDishes = _context.Dishes.ToList();
+
+            // Потім фільтруємо їх у пам'яті
+            return allDishes.Where(d =>
+                d.Name.IndexOf(name, StringComparison.OrdinalIgnoreCase) >= 0)
                 .ToList();
         }
     }
