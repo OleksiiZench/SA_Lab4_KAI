@@ -20,9 +20,9 @@ namespace FoodDelivery.DAL.Repositories
             return _dbSet.ToList();
         }
 
-        public T GetById(int id)
+        public IQueryable<T> GetById(int id)
         {
-            return _dbSet.Find(id);
+            return _dbSet.Where(e => EF.Property<int>(e, "Id") == id);
         }
 
         public void Add(T entity)
