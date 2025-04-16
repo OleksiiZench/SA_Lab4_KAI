@@ -17,7 +17,7 @@ public class DishService
 
     public Dish GetDishById(int id)
     {
-        return _dishRepository.GetById(id).FirstOrDefault();
+        return _dishRepository.GetById(id).SingleOrDefault();
     }
 
     public List<Dish> SearchDishesByName(string name)
